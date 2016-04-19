@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+}
+#container{
+  width: 100%;
+  margin: auto;
+  min-height: 100vh;
+  
+}
+
+.input{
+  margin: auto;
+  width: 100%;
+  max-width: 580px;
+}
+.input input{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+}
+
+.input input[type="range"]{
+  color: #444;
+  font: bold 19px sans-serif;
+}
+.input input[type="range"]:before{
+  content: "Faster";
+  text-shadow: 0 0 5px white;
+}
+
+.input input[type="range"]:after{
+  content: "Slower";
+  text-shadow: 0 0 5px white;
+}
+
+.input{
+	font-size: 18px;
+	text-align: center;
+}
+
+.speech{
+	 padding: 40px 0;
+	 margin: auto;
+	 width: 100%;
+	text-align: center;
+}
+
+#cypher, #offset, #finish, #decipher, #offset2, #finish2{
+	color: #444;
+}
+
+#ineedmargin{
+	margin-top: 80px;
+}
+
+
